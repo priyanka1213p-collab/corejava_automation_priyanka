@@ -4,7 +4,7 @@ package OOPS;
 //compile time polymorphism(method overloading)
 //run time polymorphism (method overriding)
 
-// method overloading " when metod name is same with different parameter
+// method overloading " when method name is same with different parameter
 
 public class polymorphism {
 	void add() {
