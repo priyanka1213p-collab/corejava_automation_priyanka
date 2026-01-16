@@ -1,6 +1,6 @@
 package OOPS;
 
-public class method_overloading {
+public class method_overloading_polymorphism {
 	void payment() {
 		System.out.println("welcome to paymemt services");
 	}
@@ -19,7 +19,7 @@ public class method_overloading {
 	}
      public static void main(String[] args) {
     	 
-    	 method_overloading obj=new method_overloading();
+    	 method_overloading_polymorphism obj=new method_overloading_polymorphism();
     	 obj.payment();
     	 obj.payment(700);
     	 obj.payment("priyanka1213@upi");
