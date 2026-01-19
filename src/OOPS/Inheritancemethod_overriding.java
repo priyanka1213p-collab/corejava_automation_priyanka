@@ -34,3 +34,6 @@ public class Inheritancemethod_overriding {
 
 }
 
+
+//super class used to the parent class method 
+//this keyword is used to the current class 

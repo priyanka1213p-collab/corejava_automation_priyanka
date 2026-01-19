@@ -40,6 +40,5 @@ public class inheritance {
 }
 
 
-
 //first is parent class created and than child class 
 // and keyword is "extends" for child class

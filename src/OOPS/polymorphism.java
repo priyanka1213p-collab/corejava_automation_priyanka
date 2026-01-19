@@ -16,11 +16,11 @@ public class polymorphism {
 	void add (int a , int b) {
 		System.out.println(a+b);
 	}
-    void add(String str) {
-    	System.out.println(str);
-    }
-    
-   public static void main(String[] args) {
+   void add(String str) {
+   	System.out.println(str);
+   }
+  
+  public static void main(String[] args) {
 	polymorphism obj =new polymorphism();
 	obj .add();
 	obj.add(10);
@@ -29,3 +29,5 @@ public class polymorphism {
 }
     
 }
+
+
