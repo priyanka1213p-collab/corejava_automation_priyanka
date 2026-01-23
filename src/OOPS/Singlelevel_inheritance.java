@@ -1,4 +1,5 @@
-package OOPS;
+
+ package OOPS;
 
 class Admin{
 	int id;

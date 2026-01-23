@@ -16,10 +16,10 @@ class Child_clas extends Parent_class{
 		super.test();
 		System.out.println("child class method");
 	}
-	void test(int id) {
+	//void test(int id) {
 		
-		super.test(14);
-		System.out.println(id);
+		//super.test(14);
+		System.out.println("child class method with id "+id); 
 	}
 	
 }
@@ -27,7 +27,7 @@ class Child_clas extends Parent_class{
 public class Inheritancemethod_overriding {
 	public static void main(String[] args) {
 		Child_clas c=new Child_clas();
-		c.test();
+		//c.test();
 		c.test(13);
 		
 	}

@@ -1,8 +1,7 @@
-package OOPS;
 
-//inheritance is process of acquiring the 
-//properties and behaviors (methods) of a
-//parent class by a child class.
+ package OOPS;
+
+//inheritance is process of acquiring the properties and behaviors (methods) of a   parent class by a child class.
 
 //inheritance is used for code reusability
 
@@ -19,7 +18,11 @@ class Parent
 	
 		
 		System.out.println("parent class constructor");
-		// TODO Auto-generated constructor stub
+		
+		
+		
+		
+	
 	}
 }
 class Child extends Parent{
