@@ -17,7 +17,7 @@ private int discount;
 
 //Setter for model 
 public void setModel(String Model) {
-	this.model = model;
+	this.model = Model;
 	
 }
 //Getter for model
@@ -27,7 +27,7 @@ public String getModel() {
 
 //Setter for Discount 
 public void setDiscount(int discount ) {
-	if(discount<=50) {
+	if(discount<=40) {
 		this.discount = discount;
 	}
 	else
@@ -37,7 +37,7 @@ public void setDiscount(int discount ) {
 }
 
 //Getter for Discount 
-public int GetDiscount() {
+public int getDiscount() {
 	return discount;
 }
 }
