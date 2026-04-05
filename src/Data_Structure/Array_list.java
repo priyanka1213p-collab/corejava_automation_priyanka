@@ -13,6 +13,7 @@ package Data_Structure;
 public class Array_list {
 public static void main(String[] args) {
 	
+	Integer[] arrylist = null;
 	for(Integer i : arrylist) {
 		System.out.println(i);
 	}
