@@ -1,0 +1,58 @@
+Appium Introduction
+
+👉 Appium is an open-source automation tool used for testing mobile applications on Android and iOS.
+
+🔹 Simple Definition (Interview ⭐)
+
+👉 “Appium is a tool used to automate mobile applications (native, hybrid, and web) without modifying the app code.”
+
+🔹 🔹 Key Features of Appium
+Supports Android & iOS
+Works with multiple languages (Java, Python, etc.)
+No need to modify app (black-box testing)
+Uses Selenium WebDriver protocol
+🔹 🔹 Types of Apps Supported
+Native Apps 📱
+Hybrid Apps 🌐
+Mobile Web Apps 🌍
+🔹 🔄 How Appium Works (Flow)
+Test Script (Java + Selenium API)
+        ↓
+   Appium Server
+        ↓
+ Automation Engine (UIAutomator2 / XCUITest)
+        ↓
+   Mobile Device / Emulator
+🔹 🔧 Working Explanation (Step-by-Step)
+✅ 1. Write Test Script
+
+👉 Using Java + Selenium methods
+
+✅ 2. Send Request to Appium Server
+
+👉 Script sends commands (click, sendKeys)
+
+✅ 3. Appium Server Processes
+
+👉 Converts commands into mobile actions
+
+✅ 4. Automation Engine Executes
+Android → UIAutomator2
+iOS → XCUITest
+✅ 5. Device Performs Action
+
+👉 App opens, click happens, text entered
+
+✅ 6. Response Back to Script
+
+👉 Pass / Fail result
+
+🔹 🔥 Example (Real-Time)
+
+👉 Login Test:
+
+Open app
+Enter username
+Enter password
+Click login
+Validate result
